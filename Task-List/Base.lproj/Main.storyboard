@@ -110,6 +110,7 @@
                                         <connections>
                                             <outlet property="taskLabel" destination="VBu-l3-ba3" id="5sV-2B-9ee"/>
                                             <outlet property="underTasksCountLabel" destination="NMi-Y4-P52" id="BZx-Rz-3jO"/>
+                                            <segue destination="hvI-rC-v1H" kind="show" identifier="idTwoTask" id="Pvx-Jz-dgC"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -133,7 +134,6 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="BiS-o6-b1P" id="awK-k0-dIV"/>
-                        <segue destination="hvI-rC-v1H" kind="show" identifier="underTask" id="JQZ-nv-3wf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -202,7 +202,7 @@
                     <navigationItem key="navigationItem" id="oBo-GL-oSY">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="F2Y-kD-aeA">
                             <connections>
-                                <segue destination="qhB-6C-mdw" kind="show" id="g4V-i9-Rmb"/>
+                                <segue destination="qhB-6C-mdw" kind="show" identifier="addTwoTask" id="g4V-i9-Rmb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
